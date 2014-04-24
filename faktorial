@@ -1,0 +1,13 @@
+public class Faktorial {
+    public int faktorial(int n) {
+        int fact = 1; // this  will be the result
+        for (int i = 1; i <= n; i++) {
+            fact *= i;
+        }
+        return fact;
+    }
+    public static void main(String[] args) {
+        Faktorial f = new Faktorial();
+        System.out.println(f.faktorial(5));
+    }
+}
